@@ -86,7 +86,7 @@
 
 |命令|参数|说明|
 |----|----|----|
-|git remote add origin git@server-name:path/repo-name.git|git remote add origin git@github.com:FeiYouLian/gitskills.git|关联远程仓库|
+|git remote add origin git@server-name:path/repo-name.git|origin url|关联origin远程仓库|
 |git push -u origin master|无|第一次推送|
 |git push|无|后面推送|
 |git clone git@server-name:path/repo-name.git|无|clone 远程库， SSH协议|
