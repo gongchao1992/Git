@@ -91,6 +91,8 @@
 |git push|无|后面推送|
 |git clone git@server-name:path/repo-name.git|无|clone 远程库， SSH协议|
 |git clone https://github.com/....|无|clone 远程库， HTTP协议|
+|git remote rm origin|origin|删除origin远程库连接|
+|git remote -v|无|查看远程库信息|
 |git branch --set-upstream branch-name origin/branch-name|branch-name|本地分支和远程分支创建链接关系|
 |git push --force origin \<branch-name>|branch-name|强制推送|
 |git fetch|无|修改 本地远程库记录 的commit id|
