@@ -106,7 +106,7 @@
 |git branch \<name>|name|创建分支|
 |git branch -d \<name>|name|删除分支|
 |git branch -D \<name>|name|强制删除分支|
-|git branch -d origin \<name>|name|删除远程分支|
+|git push origin --delete \<name>|name|删除远程分支|
 |git checkout \<name>|name|切换分支|
 |git checkout -b \<name>|name|创建+切换分支|
 |git checkout -b \<name> origin/\<name>|name|创建+切换分支+远程对应分支链接关系创建|
