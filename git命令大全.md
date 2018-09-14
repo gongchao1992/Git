@@ -75,7 +75,7 @@
 |git reset HEAD \<file>|file|把暂存区file的修改撤销掉（unstage），回到版本库的|
 |git checkout -- \<file>|file|让这个文件回到最近一次git commit或git add时的状态，取消工作区修改|
 
-- git reset [|--mixed(默认，重置index和commit)|--hard(工作区，index,commit 都重置)] 
+- git reset [--soft (只重置commit)|--mixed(默认，重置index和commit)|--hard(工作区，index,commit 都重置)] 
 - git revert [-n(不自动提交)] （反向提交）
 ## 1.8. 版本回退
 
