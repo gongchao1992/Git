@@ -59,6 +59,8 @@
 |----|----|----|
 |git add \<files>|files|添加到暂存区(index)|
 |git commit -m "commit mark"|commit mark|提交到版本库|
+|git rm --cached \<files>|files|取消git追踪|
+|git rm \<files>|files|git 删除文件并取消追踪|
 
 ## 1.6. 文件比较
 
