@@ -70,6 +70,14 @@
 |git diff --staged \<file>|file|暂存区 和 版本库 比较|
 |git diff HEAD -- \<file>|file|工作区 和 版本库 比较|
 
+```text
+git diff [<options>] [<commit>] [--] [<path>…​]
+git diff [<options>] --cached [<commit>] [--] [<path>…​]
+git diff [<options>] <commit> <commit> [--] [<path>…​]
+git diff [<options>] <blob> <blob>
+git diff [<options>] --no-index [--] <path> <path>
+```
+
 ## 1.7. 文件回退
 
 |命令|参数|说明|
