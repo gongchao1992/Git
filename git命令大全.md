@@ -62,12 +62,25 @@
 |git rm --cached \<files>|files|取消git追踪|
 |git rm \<files>|files|git 删除文件并取消追踪|
 
+```text
+git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch] [--quiet] [--] <file>…​
+-f
+--force
+    强力删除
+-n
+    不执行删除
+-r
+    递归删除
+--cached
+    只删除缓存中的（index）,工作目录不改变（work tree）
+```
+
 ## 1.6. 文件比较
 
 |命令|参数|说明|
 |----|----|----|
 |git diff \<file>|file|工作区 与 暂存区 比较|
-|git diff --staged \<file>|file|暂存区 和 版本库 比较|
+|git diff --cached \<file>|file|暂存区 和 版本库 比较|
 |git diff HEAD -- \<file>|file|工作区 和 版本库 比较|
 
 ```text
