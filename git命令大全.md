@@ -95,7 +95,7 @@ git diff [<options>] --no-index [--] <path> <path>
 
 |命令|参数|说明|
 |----|----|----|
-|git reset HEAD \<file>|file|把暂存区file的修改撤销掉（unstage），回到版本库的|
+|git reset \<file>|file|把暂存区file的修改撤销掉（unstage），回到版本库的|
 |git clean -df |无|新增的文件（从工作目录中移除untrack文件.）|
 |git checkout -- \<file>|file|让这个文件回到最近一次git commit或git add时的状态，取消工作区修改|
 
